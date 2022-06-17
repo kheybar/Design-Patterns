@@ -5,9 +5,6 @@ from observer import (
 
 
 class Sheet(Observer):
-    def __init__(self, q):
-        self.q = q
-
     def update(self, value):
         print(f'Sheet Updated. {value}')
 
